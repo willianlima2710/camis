@@ -1,0 +1,4 @@
+select count(*),sum(a.recpar_valor) 
+from mov_recpar a 
+inner join cad_jazigo b on a.jazigo_codigo=b.jazigo_codigo and b.jazigo_incobranca=1
+where a.recpar_ano<=2013 and a.recpar_pago=0 and a.operacao_id=1 

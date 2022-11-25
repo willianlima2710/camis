@@ -1,0 +1,104 @@
+        <html xmlns:o="urn:schemas-microsoft-com:office:office"
+               xmlns:x="urn:schemas-microsoft-com:office:excel"
+                xmlns="http://www.w3.org/TR/REC-html40">
+
+                <head>
+                <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+                <meta name=ProgId content=Excel.Sheet>
+                <!--[if gte mso 9]><xml>
+                 <o:DocumentProperties>
+                  <o:LastAuthor>Sriram</o:LastAuthor>
+                  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+                  <o:Version>10.2625</o:Version>
+                 </o:DocumentProperties>
+                 <o:OfficeDocumentSettings>
+                  <o:DownloadComponents/>
+                 </o:OfficeDocumentSettings>
+                </xml><![endif]-->
+                <style>
+                <!--table
+                    {mso-displayed-decimal-separator:"\.";
+                    mso-displayed-thousand-separator:"\,";}
+                @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+                tr
+                    {mso-height-source:auto;}
+                col
+                    {mso-width-source:auto;}
+                br
+                    {mso-data-placement:same-cell;}
+                .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+                td
+                    {mso-style-parent:style0;
+                    padding-top:1px;
+                    padding-right:1px;
+                    padding-left:1px;
+                    mso-ignore:padding;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    border:none;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    mso-protection:locked visible;
+                    white-space:nowrap;
+                    mso-rotate:0;}
+                .xl24
+                    {mso-style-parent:style0;
+                    white-space:normal;}
+                -->
+                </style>
+                <!--[if gte mso 9]><xml>
+                 <x:ExcelWorkbook>
+                  <x:ExcelWorksheets>
+                   <x:ExcelWorksheet>
+                    <x:Name>NOME_PLANILHA</x:Name>
+                    <x:WorksheetOptions>
+                     <x:Selected/>
+                     <x:ProtectContents>False</x:ProtectContents>
+                     <x:ProtectObjects>False</x:ProtectObjects>
+                     <x:ProtectScenarios>False</x:ProtectScenarios>
+                    </x:WorksheetOptions>
+                   </x:ExcelWorksheet>
+                  </x:ExcelWorksheets>
+                  <x:WindowHeight>10005</x:WindowHeight>
+                  <x:WindowWidth>10005</x:WindowWidth>
+                  <x:WindowTopX>120</x:WindowTopX>
+                  <x:WindowTopY>135</x:WindowTopY>
+                  <x:ProtectStructure>False</x:ProtectStructure>
+                  <x:ProtectWindows>False</x:ProtectWindows>
+                 </x:ExcelWorkbook>
+                </xml><![endif]-->
+                </head>
+
+                <body link=blue vlink=purple>
+                <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >ANO</td><td class=xl24 width=64 >CODIGO</td><td class=xl24 width=64 >LOCATARIO</td><td class=xl24 width=64 >JAZIGO</td><td class=xl24 width=64 >VENCTO</td><td class=xl24 width=64 >VALOR</td><td class=xl24 width=64 >PAGTO</td><td class=xl24 width=64 >PAGOU</td><td class=xl24 width=64 >OPERACAO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >47386</td><td class=xl24 width=64 >FABIO DE SOUZA GODI</td><td class=xl24 width=64 >55.18B-2</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >3134.98</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >3.134,98</td><td class=xl24 width=64 >VENDA DE JAZIGO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >25918</td><td class=xl24 width=64 >CLAITON CEMIN</td><td class=xl24 width=64 >1.4.75B-1</td><td class=xl24 width=64 >10/01/2021</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2020</td><td class=xl24 width=64 >25918</td><td class=xl24 width=64 >CLAITON CEMIN</td><td class=xl24 width=64 >28.07-1</td><td class=xl24 width=64 >10/01/2020</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2020</td><td class=xl24 width=64 >25918</td><td class=xl24 width=64 >CLAITON CEMIN</td><td class=xl24 width=64 >1.4.75B-1</td><td class=xl24 width=64 >10/01/2020</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >27821</td><td class=xl24 width=64 >ENERY CALIXTO DE MORAI</td><td class=xl24 width=64 >37.71-2</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >1185.94</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >1.185,94</td><td class=xl24 width=64 >TAMPA DE CONCRETO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >47388</td><td class=xl24 width=64 >SONIA GIMENES JARLETT</td><td class=xl24 width=64 >01.19-2</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >1963.31</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >1.963,31</td><td class=xl24 width=64 >LOCACAO TRIENAL</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >14853</td><td class=xl24 width=64 >VALDEMAR PIRES BUEN</td><td class=xl24 width=64 >06.01-2</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >1407.42</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >1.407,42</td><td class=xl24 width=64 >TAXA ABERTURA/FECHAMENTO JSP</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >14853</td><td class=xl24 width=64 >VALDEMAR PIRES BUEN</td><td class=xl24 width=64 >06.01-1</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >985.93</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >985,93</td><td class=xl24 width=64 >TAXA ABERTURA/FECHAMENTO JSP</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >14853</td><td class=xl24 width=64 >VALDEMAR PIRES BUENO</td><td class=xl24 width=64 >06.01-2</td><td class=xl24 width=64 >10/01/2021</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >32150</td><td class=xl24 width=64 >DAIANE CRISTIANE DE OLIVEIRA AVIL</td><td class=xl24 width=64 >6.3.07-1</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >817.04</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >817,04</td><td class=xl24 width=64 >EXUMACAO S.J.BATISTA</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >32150</td><td class=xl24 width=64 >DAIANE CRISTIANE DE OLIVEIRA AVILA</td><td class=xl24 width=64 >6.3.07-1</td><td class=xl24 width=64 >10/01/2021</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2020</td><td class=xl24 width=64 >32150</td><td class=xl24 width=64 >DAIANE CRISTIANE DE OLIVEIRA AVILA</td><td class=xl24 width=64 >6.3.07-1</td><td class=xl24 width=64 >10/01/2020</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2019</td><td class=xl24 width=64 >32150</td><td class=xl24 width=64 >DAIANE CRISTIANE DE OLIVEIRA AVILA</td><td class=xl24 width=64 >6.3.07-1</td><td class=xl24 width=64 >10/01/2019</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2018</td><td class=xl24 width=64 >32150</td><td class=xl24 width=64 >DAIANE CRISTIANE DE OLIVEIRA AVILA</td><td class=xl24 width=64 >6.3.07-1</td><td class=xl24 width=64 >10/01/2018</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >47387</td><td class=xl24 width=64 >BEAGIR DE CAMARGO BEZERR</td><td class=xl24 width=64 >176.B-2</td><td class=xl24 width=64 >17/01/2021</td><td class=xl24 width=64 >1914.41</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >1.914,41</td><td class=xl24 width=64 >LOCACAO TRIENAL</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >14884</td><td class=xl24 width=64 >EVALDO BRANDT (FALECIDO) *OBS*</td><td class=xl24 width=64 >121.17-1</td><td class=xl24 width=64 >10/01/2021</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr><td class=xl24 width=64 >2021</td><td class=xl24 width=64 >25918</td><td class=xl24 width=64 >CLAITON CEMIN</td><td class=xl24 width=64 >28.07-2</td><td class=xl24 width=64 >10/01/2021</td><td class=xl24 width=64 >99.6</td><td class=xl24 width=64 >2021-01-17</td><td class=xl24 width=64 >99,60</td><td class=xl24 width=64 >TAXA ANUAL MANUTENCAO DE CEMITERIO</td></tr><tr></tr><tr><td class=xl24 width=64 >TOTAL GERAL: 12.405,03</td><td class=xl24 width=64 >TOTAL PAGO: 12.405,03</td><td class=xl24 width=64 >SALDO: 0,00</td></tr></table></body></html>

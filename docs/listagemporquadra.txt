@@ -1,0 +1,18 @@
+select 
+a.jazigo_codigo,
+b.locatario_desc,
+b.locatario_endereco,
+b.locatario_numero,
+b.locatario_bairro,
+b.locatario_cidade,
+b.locatario_cep,
+b.estado_sigla,
+b.locatario_telefone,
+c.jazigo_gaveta,
+d.obito_falecido
+from mov_recpar a 
+inner join cad_locatario b on a.locatario_id=b.locatario_id
+inner join cad_jazigo c on a.jazigo_codigo=c.jazigo_codigo
+inner join cad_obito d on a.jazigo_codigo=d.jazigo_codigo
+where 
+a.jazigo_codigo like '%.48%' group by a.jazigo_codigo

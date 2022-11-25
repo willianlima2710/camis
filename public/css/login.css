@@ -1,0 +1,43 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background-color:#93b0cc;	
+    font-family:'lucida grande',tahoma,arial,sans-serif;
+    font-size:11px;         
+}
+#login-win .x-window-mc {
+	background:#fff none;
+	border:1px solid #eee;
+    font: normal 12px tahoma, arial, verdana, sans-serif;
+    color: #0B0B61;
+}
+.x-plain-body {
+	background-color:#93b0cc;
+}
+#login-form .x-plain-body {
+	background: #F2F2F2 none;
+	color:#0B0B61;
+	padding:5px 35px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#login-win .x-window-body {
+	background:#FFFFFF none repeat scroll 0%;
+	border:1px solid #99BBE8;
+}
+#header {
+	display: none;
+}
+.image_login {	
+	padding-left: 20px; 
+	background: url(/images/icon_padlock.png) no-repeat 1px 0px;
+}
+.silk-login{
+	background-image: url(/images/lock_go.png) !important;
+}	
+	
+.ico-cadeado{
+	background-image:url(/images/lock.png) !important;
+}

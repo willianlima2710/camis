@@ -1,0 +1,5 @@
+select a.jazigo_codigo,b.cemiterio_desc,c.tpjazigo_desc,d.tpterreno_sigla from cad_jazigo a 
+inner join cad_cemiterio b on a.cemiterio_id=b.cemiterio_id
+left join cad_tpjazigo c on a.tpjazigo_id=c.tpjazigo_id
+left join cad_tpterreno d on a.tpterreno_id=d.tpterreno_id
+where jazigo_disponivel=1 order by a.jazigo_codigo,b.cemiterio_desc

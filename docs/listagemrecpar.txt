@@ -1,0 +1,32 @@
+select 
+      a.recpar_id,
+      a.jazigo_codigo,
+      a.empresa_id,
+	    a.ctarec_documento,
+	    a.recpar_data_emissao,
+	    a.recpar_data_vencto,
+	    a.recpar_valor,
+	    a.recpar_pago,
+	    a.recpar_data_pagto,
+	    a.recpar_agencia,
+	    a.recpar_conta,
+      a.recpar_banco,
+      a.recpar_cheque,
+	    a.recpar_parcela,
+	    a.recpar_instatus,
+	    a.recpar_ano,
+	    a.locatario_desc,
+	    b.operacao_desc,
+	    c.formarec_desc,
+	    d.locpagto_desc,
+			a.usuario_login,
+      a.data_ultima_alteracao
+from mov_recpar a
+left join cad_operacao b on a.operacao_id=b.operacao_id
+left join cad_formarec c on a.formarec_id=c.formarec_id
+left join cad_locpagto d on a.locpagto_id=d.locpagto_id
+where 
+a.recpar_data_pagto BETWEEN '2013-11-01' and '2013-11-02' 
+and 
+a.recpar_instatus in ('1')
+order by a.data_ultima_alteracao

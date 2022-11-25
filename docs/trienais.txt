@@ -1,0 +1,6 @@
+SELECT a.jazigo_codigo,b.locatario_desc,b.obito_falecido,b.obito_data_falecimento,c.locatario_endereco,c.locatario_numero,
+c.locatario_bairro,c.locatario_cidade,c.locatario_cep,c.locatario_complem,c.locatario_telefone
+FROM cad_jazigo a 
+LEFT JOIN cad_obito b ON a.jazigo_codigo=b.jazigo_codigo
+LEFT JOIN cad_locatario c ON b.locatario_id=c.locatario_id
+WHERE a.quadra_codigo IN(56,57) 
